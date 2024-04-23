@@ -1,0 +1,276 @@
+
+
+.Background{
+  width: 1440px;
+  height: 1024px;
+  left: 0px;
+  top: 0px;
+  position: absolute;
+  background: linear-gradient(to right, transparent, #f3f4f5 20%, #acbef0),
+              linear-gradient(63deg, #a1b8f5 2%,#eef0f1 67%); 
+  backdrop-filter: blur(50px); 
+}
+
+.MediumBackground{
+  width: 1196px; 
+  height: 792px; 
+  left: 122px; 
+  top: 113px; 
+  position: absolute;
+  background: white;
+  border-radius: 30px;
+  backdrop-filter: blur(30px); 
+}
+
+
+.Rectangle1{
+    width: 465px; 
+    height: 792px; 
+    left: 853px;
+    top: 113px; 
+    position: absolute;
+    border-radius: 0 30px 30px 0;
+    background: #10699B
+
+}
+.BookPage1{
+  width: 400px; 
+  height: 550px; 
+  left: 453px; 
+  top: 197px; 
+  position: absolute; 
+  margin-top: 50px;
+  margin-bottom: 50px;
+  background:  #10699B; 
+  border-radius: 30px 0 0 30px;
+  transform-origin: top right; 
+  transform: skewY(8deg); 
+  z-index: 2; 
+}
+
+.BookPage2{
+  width: 400px;
+  height: 550px;
+  left: 853px; 
+  top: 197px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  position: absolute; 
+  background: #fff; 
+  border-radius: 0 30px 30px 0; 
+  transform-origin: top left; 
+  transform: skewY(-8deg); 
+  z-index: 2; 
+}
+
+.BookPage1,
+.BookPage2 {
+  border: 10px solid #6cacd1; 
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Box shadow for a subtle effect */
+}
+
+
+.PenPicture{
+    width: 620.30px;
+    height: 774.77px;
+    left: 74.28px; 
+    top: 338.76px;
+    position: absolute; 
+    transform: rotate(9.68deg); 
+    transform-origin: 0 0
+}
+
+  
+.title {
+  border: none;
+  border-bottom: 1px solid rgb(5, 3, 112);
+  display: block;
+  position: relative;
+  height: auto;
+  margin: 80px 0 0 70px;
+  padding-left: 10px;
+  padding-right: 50px;
+  color: #3d3c3c;
+  font-family: Roboto, sans-serif; 
+  font-size: 16px; 
+  font-weight: 300;
+  line-height: 16px; 
+  text-align: left;
+  white-space: nowrap;
+  z-index: 8;
+}
+
+
+  .description {
+    border: none;
+    border-bottom: 1px solid rgb(5, 3, 112);
+    display: block;
+    position: relative;
+    height: 19px;
+    margin: 100px 0 0 70px;
+    padding-left: 15px; 
+    padding-right: 70px; 
+    color: #3d3c3c;
+    font-family: Roboto, var(--default-font-family);
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 20px; 
+    text-align: left;
+    white-space: nowrap;
+    z-index: 8;
+  }
+
+ 
+
+.select-container select {
+  border: none;
+  border-bottom: 1px solid rgb(5, 3, 112);
+  display: block;
+  position: relative;
+  height: 19px;
+  margin: 100px 0 0 70px; 
+  padding-left: 10px; 
+  padding-right: 155px; 
+  color: #3d3c3c;
+  font-family: Roboto, var(--default-font-family);
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 12px; 
+  text-align: left;
+  white-space: nowrap;
+  z-index: 8;
+  
+}
+
+.select-container select option:checked {
+  background-color: #b3b0b0; 
+}
+
+  .create {
+  background-color: #071a5e;
+  border: none;
+  width: 200px;
+  height: 30px;
+  font-size: 19px;
+  border-radius: 20px;
+  margin-top: 70px;
+  margin-left: 110px;
+  color: #d9d9d9;
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+  font-weight: bold;
+
+  }
+  
+ .create:hover{
+    border:3px solid darkblue;
+    color:#000000;
+    background-color:rgb(147, 181, 221);
+  }
+    
+  
+.PdfThumbnail {
+  padding: 20px;
+}
+
+
+.PdfThumbnail > div {
+  
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+
+#PdfUploadImg {
+  width: 150px;
+  height: 200px;
+  padding-left: 130px;
+  padding-right: 100px;
+  margin-top: 40px;
+}
+
+#PdfUploadImg:hover {
+  
+  opacity: 0.8;
+  transition: all 0.3s ease;
+}
+
+
+#PdfUploadInput {
+  display: none;
+}
+
+
+#fileSelectedIdicator {
+    margin-top: 30px;
+    background-color: #dadbdf;
+    border:#747779 solid 5px;
+    width: 200px;
+    height: 30px;
+    font-size: 18px;
+    border-radius: 25px;
+    margin-left: 100px;
+    color: #2038a1;
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    font-weight: bold;
+}
+
+#ThumbnailUploadImg {
+  width: 120px;
+  height: 100px;
+  padding-left: 150px; 
+  margin-top: 40px; 
+  
+}
+
+
+#ThumbnailUploadImg:hover {
+  width: 140px;
+  height: 110px;
+}
+
+#ThumbnailUploadInput {
+  display: none;
+}
+
+#imageSelectedIdicator{
+  margin-top: 30px;
+  background-color: #dadbdf;
+  border:#747779 solid 5px;
+  width: 200px;
+  height: 30px;
+  font-size: 18px;
+  border-radius: 25px;
+  margin-left: 100px;
+  color: #2038a1;
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+  font-weight: bold;  
+
+}
+.back{
+  background-color: #071a5e;
+  border: none;
+  width: 200px;
+  height: 30px;
+  font-size: 19px;
+  border-radius: 20px;
+  margin-top: 20px;
+  margin-left: 110px;
+  color: #d9d9d9;
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+  font-weight: bold;
+}
+.back:hover{
+  border:3px solid darkblue;
+  color:#000000;
+  background-color:rgb(147, 181, 221);
+}
+
